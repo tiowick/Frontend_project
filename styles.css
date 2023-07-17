@@ -1,0 +1,40 @@
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: burlywood;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+}
+
+#transfersContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+}

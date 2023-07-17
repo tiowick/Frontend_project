@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Transferência de Dados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transferências Bancárias</h1>
+        <div class="filters">
+            <div class="input-group">
+                <label for="accountNumber">Número da Conta:</label>
+                <input type="text" id="accountNumber">
+            </div>
+            <div class="input-group">
+                <label for="startDate">Data de Início:</label>
+                <input type="date" id="startDate">
+            </div>
+            <div class="input-group">
+                <label for="endDate">Data de Fim:</label>
+                <input type="date" id="endDate">
+            </div>
+            <div class="input-group">
+                <label for="operatorName">Nome do Operador:</label>
+                <input type="text" id="operatorName">
+            </div>
+            <button onclick="fetchTransfers()">Buscar Transferências</button>
+        </div>
+        <div id="transfersContainer">
+            <!-- Aqui serão exibidas as transferências -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
